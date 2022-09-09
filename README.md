@@ -2,12 +2,13 @@
 
 # Enjoy algorithms coding challenges
 
-> This is the implementation of the various coding challenges found on the enjoy algorithm's website in Ruby.
+> This is the implementation of the various coding challenges found on the enjoy algorithm's website in Ruby & JavaScript.
 
 
 ## Built With
 
 - Ruby
+- Javascript
 
 ## Getting Started
 
@@ -15,6 +16,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 - Ruby
+- Javascript
 
 ### Setup
 
