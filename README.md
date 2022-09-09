@@ -19,12 +19,27 @@ To get a local copy up and running follow these simple example steps.
 - Javascript
 
 ### Setup
+Clone the repository
+  ```
+  https://github.com/Achilles-Dev/enjoy-algorithms-coding-challenges.git
+  ```
 
 ### Install
+- Ruby [Installation Guide](https://www.ruby-lang.org/en/documentation/installation/)
+- node [Installation Guide](https://nodejs.org/en/download/)
+- npm [Installation Guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ### Usage
-
-### Run tests
+- Ruby
+  To run the server use:
+   ```
+   ruby <file_name>.rb
+   ```
+- Javascript
+  To run the server use:
+   ```
+   node <file_name>.js
+   ```
 
 ## Authors
 
