@@ -3,10 +3,10 @@
 const maxConsectiveOne = (array, k) => {
   const n = array.length;
   let maxOneCount = 0;
-  for (let i = 0; i < n; i + 1) {
+  for (let i = 0; i < n; i += 1) {
     let zeroCount = 0;
-    const j = i;
-    for (j; j < n; j + 1) {
+    let j = i;
+    for (j; j < n; j += 1) {
       if (array[j] === 0) {
         zeroCount += 1;
         if (zeroCount > k) break;
@@ -26,7 +26,7 @@ const maxConsectiveOneUpdate = (array, k) => {
   let leftEnd = 0;
   let maxOneCount = 0;
   let zeroCount = 0;
-  for (let rightEnd = 0; rightEnd < n; rightEnd + 1) {
+  for (let rightEnd = 0; rightEnd < n; rightEnd += 1) {
     if (array[rightEnd] === 0) {
       zeroCount += 1;
     }
